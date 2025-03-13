@@ -27,8 +27,8 @@ A multithreaded tool to find the best prices for automotive parts across multipl
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/auto-parts-price-scraper.git
-   cd auto-parts-price-scraper
+   git git@github.com:se-t-h/priceScraper.py.git
+   cd priceScraper.py
    ```
 
 2. Install the required dependencies:
