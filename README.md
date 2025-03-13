@@ -38,24 +38,24 @@ A multithreaded tool to find the best prices for automotive parts across multipl
 
 3. Make the script executable (Linux/Mac):
    ```bash
-   chmod +x auto_parts_scraper.py
+   chmod +x script.py
    ```
 
 ## Usage
 
 Basic usage pattern:
 ```bash
-python auto_parts_scraper.py PART_NUMBER --proxy USER:PASS@HOST:PORT --brand BRAND
+python script.py PART_NUMBER --proxy USER:PASS@HOST:PORT --brand BRAND
 ```
 
 ### Example
 
 ```bash
 # Search for a Lexus oil filter
-python auto_parts_scraper.py 04152YZZA5 --proxy user:pass@proxy.example.com:7000 --brand lexus
+python script.py 04152YZZA5 --proxy user:pass@proxy.example.com:7000 --brand lexus
 
 # Search for a Subaru air filter
-python auto_parts_scraper.py 15208AA170 --proxy user:pass@proxy.example.com:7000 --brand subaru
+python script.py 15208AA170 --proxy user:pass@proxy.example.com:7000 --brand subaru
 ```
 
 ### Command-line Arguments
@@ -77,8 +77,9 @@ The script outputs results in real-time showing:
 
 Example output:
 ```
-[ LEXUS BOT | made by seth ]
+[ priceScraper.py | made by github.com/se-t-h ]
 
+brand: lexus
 part number: 04152YZZA5
 
 fetching prices using 20 threads...
@@ -117,5 +118,4 @@ This tool is for educational purposes only. Always respect the terms of service 
 
 ## Credits
 
-- Created by Seth
-- Improved version with multithreading and brand support
+- Created by se-t-h

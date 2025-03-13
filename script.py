@@ -194,8 +194,8 @@ def main():
         print(f"Unknown brand: {args.brand}")
         sys.exit(1)
     
-    print(f'\n[ {brand_name} BOT | made by seth ]')
-    print(f'\npart number: {part_number}\n')
+    print(f'\npriceScraper.py | made by github.com/se-t-h')
+    print(f'\nbrand: {brand_name}\npart number: {part_number}\n')
     print(f'fetching prices using {args.threads} threads...')
     
     prices = {}
