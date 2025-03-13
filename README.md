@@ -54,7 +54,7 @@ python script.py PART_NUMBER --proxy USER:PASS@HOST:PORT --brand BRAND
 # Search for a Lexus oil filter
 python script.py 04152YZZA5 --proxy user:pass@proxy.example.com:7000 --brand lexus
 
-# Search for a Subaru air filter
+# Search for a Subaru oil filter
 python script.py 15208AA170 --proxy user:pass@proxy.example.com:7000 --brand subaru
 ```
 
